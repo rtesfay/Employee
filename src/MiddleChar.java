@@ -8,7 +8,7 @@ public class MiddleChar {
         int n;
         n= keyboard.nextInt();
         word= keyboard.next();
-        System.out.println(charAt(Length/2));
+        System.out.println(word.charAt(word.length()/2));
 
     }
 }
